@@ -1,12 +1,73 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Inicio</title>
-</head>
-<body>
+<!DOCTYPE html>//se refiere al lenguaje usado
+<html lang="es">//lenguaje de la pagina
+<head>//cabeza de la pagina (pesta#a)
+  <title>Primera pagina web</title>//titulo mostrado en la pesta#a
+  <meta charset="UTF-8" />//codificacion de caracteres usados
+  <meta name="decription" content="Esta es una pagina de practica" />//etiqueta de descripcion
+  <meta name="author" content="Alexsuarez7" />//etiqueta de autor
+  <meta name="keyword" content="Primera, pagina, pagina web, practica, html" />//etiqueta de palabras claves
   
+</head>//final o cierre de la etiqueta cabeza
+<body>//cuerpo de la pagina
 
-</body>
-</html>
+  <header>//cabecera de la pagina
+    <h1>Mi creacion</h1>//titulo de la cabecera
+  </header>//cierre
+  <nav>//barra de navegacion en la pagina
+    <ul>//etiqueta de lista desordenada
+      <li>Inicio</li>//item de la lista
+      <li>Informacion</li>//item tambien
+      <li>Contacto</li>//tambien otro item
+    </ul>//cierre
+  </nav>
+
+  <section>//informacion principal de la pagina
+    <article>//etiqueta de articulo
+      <hgroup>//agrupacion de subtitulos de la pagina (evita error entre la etiqueta h1)
+        <h1>Titulo del primer tema</h1>//etiqueta h1 que hace referencia a un titulo
+        <h2>Subitulo del primer tema</h2>//etiqueta h2 que hace referencia a un subtitulo
+      </hgroup>
+      <time datetime="20-10-2040">Subido el 20-10-2040</time>//etiqueta de fecha
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolor, odio molestiae itaque, quae<span>nesciunt</span> praesentium explicabo <small>earum sed nostrum et magnam</small>, suscipit deleniti cupiditate <cite>cumque velit quis</cite> ipsam aliquam?</p>//etiqueta de parrafo
+    <footer>//etiqueta de pie de pagina o de algun ariticulo
+      <p>Comentarios (0)</p>
+    </footer>
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fubunlog.com%2Fcomo-instalar-lubuntu-18-04-en-nuestro-ordenador%2F&psig=AOvVaw26_X_LDwUsInmyA-5s-jE-&ust=1596348406929000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICY4rir-eoCFQAAAAAdAAAAABAD"/>//etiqueta que permite a#adir una imagen a la pagina
+    <address>//etiqueta que hace referencia a un sitio web
+      <a href="http://facebook.com">Visita mi sitio de facebook</a>//etiqueta que deja a#adir un enlace
+    </address>
+    </article>
+
+    <article>
+      <hgroup>
+        <h1>Titulo del segundo tema</h1>
+        <h2>Subtitulo del segundo tema</h2>
+      </hgroup>
+      <time datetime="18-10-2040">Subido el 18-10-2040</time>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque possimus quasi omnis nihil veritatis fuga magni laborum natus harum corrupti maiores dolorum vero voluptates quae eos enim minima a debitis, assumenda laudantium quibusdam magnam, eaque illum nulla! Vero, vitae! Dolorem.</p>
+    <footer>
+      <p>Comentarios (10)</p>
+    </footer>
+    <img src="images/lubuntu-logo.jpg" alt="">
+    <address>
+      <a href="http://google.com">Visita google</a>
+    </address>
+    </article>  
+  </section>
+
+  <aside>//etiqueta que permite a#adir una barra lateral con citas
+    <blockquote cite="http://youtube.com">//etiqueta que hace referencia al enlace de donde salio la cita
+      Mensaje 1 //cita ejemplo
+    </blockquote> 
+
+    <blockquote cite="http://google.com">
+      Mensaje 2
+    </blockquote> 
+  </aside>
+
+  <footer>//pie de pagina web
+    Derechos Reservados 2040-2042
+  </footer>
+
+</body>//cierre del cuerpo
+</html>//final del codigo
