@@ -10,8 +10,14 @@ h2 {
   font-weight: bold;
   font-family: sans-serif;
 }
+body{
+  background-color: gray;
+}
+h1:hover{
+  background-color: red
+}
 
-<!--style
+/*style
       //dentro de esta etiqueta style se usan estos selectores
       //.red {
         //las etiquetas style, id y class se pueden usar para modificar el interfaz de la pagina, id se llama con un # y class con un . 
@@ -24,4 +30,4 @@ h2 {
         //asi se maneja el style por atributos
         //background: blue;
       //}
-    //</style>-->
+    //</style>*/
