@@ -1,0 +1,22 @@
+header {
+  background: red;
+}
+
+footer {
+  background: green;
+}
+
+//<style>
+      //dentro de esta etiqueta style se usan estos selectores
+      //.red {
+        //las etiquetas style, id y class se pueden usar para modificar el interfaz de la pagina, id se llama con un # y class con un . 
+        //hay un selector universal que se usa con un * para todo el contenido
+        //background: black;
+        //color: white;
+    
+      //}
+      //blockquote[cite] {
+        //asi se maneja el style por atributos
+        //background: blue;
+      //}
+    //</style> 
