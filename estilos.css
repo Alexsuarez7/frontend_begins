@@ -60,10 +60,12 @@ body {
 .seccion {
   margin: 20px;
   width: 600px;
+  float: left;
 }
 
 .columna {
   width: 200px;
+  float: left;
 }
 
 .pie {
