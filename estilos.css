@@ -1,8 +1,14 @@
 h1 {
   font-size: 20px;
 }
+body{
+  background-color: gray;
+}
+h1:hover{
+  background-color: red
+}
 
-<!--style
+/*style
       //dentro de esta etiqueta style se usan estos selectores
       //.red {
         //las etiquetas style, id y class se pueden usar para modificar el interfaz de la pagina, id se llama con un # y class con un . 
@@ -15,4 +21,4 @@ h1 {
         //asi se maneja el style por atributos
         //background: blue;
       //}
-    //</style>-->
+    //</style>*/
