@@ -1,3 +1,8 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 h1 {
   font-size: 20px;
   font-family: sans-serif;
@@ -27,6 +32,12 @@ body {
   background: lightcoral;
   width: 960px;
   margin: 15px auto;
+  
+}
+.header {
+  background: #FFFBB9;
+  border: 1px solid #999999;
+  padding: 20px;
 }
 /*style
       //dentro de esta etiqueta style se usan estos selectores
