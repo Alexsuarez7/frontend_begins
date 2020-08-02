@@ -34,10 +34,27 @@ body {
   margin: 15px auto;
   
 }
-.header {
+.cabecera {
   background: #FFFBB9;
   border: 1px solid #999999;
   padding: 20px;
+}
+
+.cabecera h1 {
+  text-align: left;
+}
+
+.menu {
+  background: #2980b9;
+  padding: 5px 10px;
+  text-align: left;
+}
+
+.menu li {
+  list-style: none;
+  padding: 5px;
+  font: bold 14px verdana;
+  display: inline-block;
 }
 /*style
       //dentro de esta etiqueta style se usan estos selectores
