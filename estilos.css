@@ -6,15 +6,18 @@ h1 {
 }
 
 h2 {
-  font-size: 15px;
-  font-weight: bold;
-  font-family: sans-serif;
+  font: bold 14px sans-serif;
 }
 body{
   background-color: gray;
 }
 h1:hover{
   background-color: red
+}
+
+header,section,footer, aside, nav, article, hgroup {
+  border: 1px solid black;
+  display: block;
 }
 
 /*style
