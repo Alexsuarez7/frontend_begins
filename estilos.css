@@ -1,12 +1,8 @@
-header {
-  background: red;
+h1 {
+  font-size: 20px;
 }
 
-footer {
-  background: green;
-}
-
-//<style>
+<!--style
       //dentro de esta etiqueta style se usan estos selectores
       //.red {
         //las etiquetas style, id y class se pueden usar para modificar el interfaz de la pagina, id se llama con un # y class con un . 
@@ -19,4 +15,4 @@ footer {
         //asi se maneja el style por atributos
         //background: blue;
       //}
-    //</style> 
+    //</style>-->
