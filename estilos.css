@@ -16,10 +16,12 @@ h1:hover{
 }
 
 header,section,footer, aside, nav, article, hgroup {
-  border: 1px solid black;
-  display: block;
+    display: block;
 }
 
+body {
+  
+}
 /*style
       //dentro de esta etiqueta style se usan estos selectores
       //.red {
