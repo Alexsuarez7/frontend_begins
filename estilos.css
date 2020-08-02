@@ -59,13 +59,35 @@ body {
 
 .seccion {
   margin: 20px;
-  width: 600px;
+  width: 700px;
   float: left;
+}
+
+article {
+  background: #c0392b;
+  border: 1px solid black;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+time {
+  color: antiquewhite;
+}
+
+img {
+  width: 80px;
+  display: block;
+  margin: auto;
+}
+
+article footer {
+  text-align: right;
 }
 
 .columna {
   width: 200px;
   float: left;
+  margin: 20px 0;
 }
 
 .pie {
