@@ -56,6 +56,19 @@ body {
   font: bold 14px verdana;
   display: inline-block;
 }
+
+.seccion {
+  margin: 20px;
+  width: 600px;
+}
+
+.columna {
+  width: 200px;
+}
+
+.pie {
+  clear: both;
+}
 /*style
       //dentro de esta etiqueta style se usan estos selectores
       //.red {
