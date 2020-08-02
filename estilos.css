@@ -20,7 +20,13 @@ header,section,footer, aside, nav, article, hgroup {
 }
 
 body {
-  
+  text-align: center;
+}
+
+.agrupador {
+  background: lightcoral;
+  width: 960px;
+  margin: 15px auto;
 }
 /*style
       //dentro de esta etiqueta style se usan estos selectores
